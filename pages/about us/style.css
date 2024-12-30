@@ -1,0 +1,187 @@
+.about-us {
+  background-color: var(--secondary-bg);
+  color: var(--primary-color);
+}
+
+.instructor-title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.instructor-title p {
+  font-size: 2.5rem;
+  margin: 0;
+  text-align: left;
+}
+
+.instructor-title p span {
+  color: var(--blog);
+}
+
+.instructor-content {
+  padding: 4rem 0;
+}
+
+.image-div img {
+  width: 16rem;
+}
+
+.line-long {
+  width: 100%;
+  border-bottom: 1px solid var(--acsent-color);
+}
+
+.name-div {
+  margin-top: 2rem;
+}
+
+.name {
+  font-size: 1.875rem;
+
+  line-height: 2.25rem;
+  margin: 0;
+  padding: 0;
+}
+
+.designation {
+  color: var(--acsent-color);
+  font-size: 1.5rem;
+  line-height: 2rem;
+  margin: 0;
+  font-weight: 400;
+  padding: 0;
+}
+
+.description-div {
+  background: var(--primary-bg);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border: 1px dashed var(--course-border);
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.description {
+  font-size: 1.5rem;
+  font-weight: 200;
+  line-height: 2rem;
+  margin: 0;
+  text-align: justify;
+  padding: 0;
+}
+
+.description span {
+    color: var(--blog);
+}
+
+@media only screen and (min-width: 900px) {
+  /* For Desktop */
+  .about-us {
+    padding: 3% 20%;
+  }
+
+  #instructor {
+    margin-top: 5rem;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  /* For Phone */
+  .image-div img {
+    width: 13rem;
+    height: 13rem;
+  }
+
+  .instructor-title p {
+    font-size: 24px;
+  }
+
+  .about-us {
+    padding: 15% 8%;
+  }
+}
+
+.description-div {
+  background: var(--primary-bg);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 20px 0; /* Add some margin for spacing */
+  padding: 30px; /* Add padding for content within the section */
+  border: 1px solid #ddd; /* Add a thin border */
+  border-radius: 5px; /* Add rounded corners */
+}
+
+.description-div p {
+  line-height: 1.5; /* Increase line spacing for better readability */
+}
+
+.description-div .description {
+  margin-bottom: 10px; /* Add some space after the title */
+}
+
+.description-div .description span i {
+  font-style: italic; /* Italicize Dr. Kelath Murali Manoj */
+}
+
+.description-div ul {
+  
+  list-style:  square; /* Remove default bullet points */
+  padding: 5px; /* Remove default padding */
+  margin: 0; /* Remove default margin */
+}
+
+.description-div li {
+  
+  list-style:  square;
+  margin-bottom: 5px; /* Add some space between list items */
+}
+
+.description-div a {
+  color: #333333; /* Set link color */
+  text-decoration: none; /* Remove underline from links */
+}
+
+.description-div a:hover {
+  color: #260086; /* Change link color on hover */
+  text-decoration: underline; /* Add underline on hover */
+}
+footer .components-outer-container .footer-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Adjusting container positions */
+footer .components-outer-container .footer-container .first,
+footer .components-outer-container .footer-container .second,
+footer .components-outer-container .footer-container .third {
+  flex: 1;
+  margin: 10px;
+}
+
+/* Ensure first container content is left-aligned */
+footer .components-outer-container .footer-container .first {
+  order: 1; /* Ensure it appears first */
+}
+
+/* Ensure third container content is right-aligned */
+footer .components-outer-container .footer-container .third {
+  order: 3; /* Ensure it appears last */
+}
+
+/* Additional styles for responsiveness */
+@media (max-width: 768px) {
+  footer .components-outer-container .footer-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+footer .components-outer-container .footer-container .third {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+

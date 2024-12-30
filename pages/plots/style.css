@@ -1,0 +1,470 @@
+.contact-form-section {
+    transform: translateY(-80px);
+  }
+  
+  .contact-section {
+    position: relative;
+    margin-top: 70px;
+  }
+  
+  .contact-bg {
+    background-color: rgb(255, 255, 255);
+  }
+  
+  .image {
+    background-image: url(../../images/contact_bg.jpg);
+    height: 60vh;
+    opacity: 0.4;
+    background-size: cover;
+    background-position: center center;
+  }
+  
+  .contact-bg h1 {
+    z-index: 999;
+    color: var(--primary-color);
+    margin: auto;
+  }
+  
+  .contact-title {
+    position: flex;
+    margin-top: 50px;
+    margin-right:60px;
+    font-family: "Rubik", sans-serif;
+    color: #000000;
+  }
+  
+  .form-title {
+    margin-bottom: 3.5rem;
+  }
+  
+  .contact-title h1 {
+    align-items:center;
+    margin:0;
+    font-size: 3rem;
+    color: #000000;
+  }
+  
+  .contact-title p {
+    margin: 0;
+    font-size: 0.9rem;
+  }
+  
+  .contact-form-section {
+    width: 80%;
+    max-width: 1300px;
+    margin: auto;
+  }
+  
+  .first-contact-section {
+    margin-bottom: 2rem;
+  }
+  
+  .contact-form {
+    background-color: var(--secondary-bg);
+    color: var(--primary-color);
+    padding: 3rem 2.5rem;
+    font-family: "Rubik", sans-serif;
+    box-shadow: rgb(0, 0, 0, 0.1) 0px 0px 5px 0px,
+      rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+  }
+  
+  .send-title {
+    font-weight: 600;
+    margin: 0;
+  }
+  
+  .input-container {
+    position: relative;
+  }
+  
+  .input-container label {
+    position: absolute;
+    top: -13px;
+    left: 0px;
+    font-size: 12px;
+    color: var(--acsent-color);
+    transition: all 0.5s ease-in-out;
+  }
+  
+  .input-container input {
+    border: 0;
+    border-bottom: 1px solid #555;
+    background: transparent;
+    width: 100%;
+    padding: 8px 0 5px 0;
+    font-size: 16px;
+    color: var(--primary-color);
+  }
+  
+  .submit-btn {
+    margin-top: 2rem;
+  }
+  
+  .submit-btn a {
+    color: #fff;
+    background: var(--blog);
+    float: right;
+    vertical-align: middle;
+    display: flex;
+    align-items: center;
+    transition: all 0.4s ease;
+  }
+  
+  .submit-btn a:hover {
+    background-color: var(--blog-secondary);
+  }
+  
+  .social-contact {
+    background-color: var(--blog);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    gap: 2rem;
+    font-family: "Rubik", sans-serif;
+  }
+  
+  .social-contact p {
+    font-weight: 700;
+    font-size: 1.5rem;
+  }
+  
+  .mail-content {
+    place-content: center;
+    place-self: center;
+    display: grid;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  .mail-content a {
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: 300;
+  }
+  
+  .mail-logo {
+    place-content: center;
+    border-radius: 0.5rem;
+    width: 52px;
+    height: 52px;
+    font-size: 1.5rem;
+    display: grid;
+    background-color: rgb(0, 0, 0, 0.2);
+  }
+  
+  .mail-logo svg {
+    place-content: center;
+    text-align: center;
+  }
+  
+  .icons {
+    display: flex;
+    justify-content: center;
+    font-size: 1.875rem;
+    gap: 1.25rem;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  
+  .icons a {
+    color: #fff;
+  }
+  
+  @media only screen and (min-width: 900px) {
+    /* For Desktop */
+  
+    .contact-form-section {
+      display: flex;
+    }
+  
+    .contact-form {
+      width: 70%;
+    }
+  
+    .contact-title {
+      display: flex;
+      height: 100%;
+      margin-left: 15%;
+      align-items: center;
+    }
+  
+    .form-title {
+      font-size: 2.25rem;
+    }
+  
+    .form-title {
+      display: flex;
+      justify-content: space-between;
+      text-align: center;
+    }
+  
+    .first-contact-section {
+      gap: 2rem;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+    }
+  
+    .submit-btn a {
+      color: #fff;
+      border-radius: 5px;
+      padding: 1rem 2rem;
+      background: var(--blog);
+      float: right;
+      font-size: 1.25rem;
+      vertical-align: middle;
+      display: flex;
+      align-items: center;
+      transition: all 0.4s ease;
+    }
+  
+    .submit-btn a:hover {
+      background-color: var(--blog-secondary);
+    }
+  
+    .submit-btn a svg {
+      margin-left: 0.6rem;
+    }
+  
+    .social-contact {
+      width: 30%;
+      background-color: var(--blog);
+    }
+  }
+  
+  @media only screen and (max-width: 900px) {
+    .contact-form-section {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .contact-title {
+      text-align: center;
+      display: flex;
+      width: 100%;
+      height: 100%;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .form-title {
+      font-size: 1.5rem;
+      text-align: center;
+    }
+  
+    .first-contact-section {
+      gap: 2rem;
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+    }
+  
+    .submit-btn {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .submit-btn a {
+      color: #fff;
+      border-radius: 5px;
+      padding: 1rem 2rem;
+      background: var(--blog);
+      float: right;
+      font-size: 1.25rem;
+      vertical-align: middle;
+      display: flex;
+      align-items: center;
+      transition: all 0.4s ease;
+    }
+  
+    .submit-btn a:hover {
+      background-color: var(--blog-secondary);
+    }
+  
+    .submit-btn a svg {
+      margin-left: 0.6rem;
+    }
+  
+    .social-contact {
+      padding: 2rem 1.25rem;
+      height: 440px;
+    }
+  }
+  
+/* Additional CSS for plots */
+.plots-container {
+  display: flex;
+  flex-direction: column; /* Ensure plots are in a column layout */
+  align-items: center; /* Center the plots horizontally */
+  padding: 2rem;
+}
+
+.plot {
+  width: 100%; /* Adjust width as needed, 100% for full width */
+  max-width: 600px; /* Optional: Set a max width to limit the plot size */
+  margin-bottom: 20px; /* Space between plots */
+  border: 2px solid var(--primary-color);
+  border-radius: 2px;
+}
+@media only screen and (max-width: 900px) {
+    .plot {
+        width: 100%;
+    }
+}
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: var(--primary-bg);
+}
+
+.contact-form-section {
+  padding-top: 200px; /* Adjust to prevent overlap with fixed nav */
+  text-align: center;
+  color: var(--primary-color);
+}
+
+.plots-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.plot {
+  width: 45%;
+  margin: 10px 0;
+}
+
+/* Ensure footer does not overlap */
+footer {
+  margin-top: 50px;
+}
+
+.wrapper {
+  margin-right: 15px;
+}
+
+h1{
+  color: var(--primary-color); /* Adjust as needed */
+  text-align: center;
+  visibility: visible; /* Ensure headings are not hidden */
+  display: block; /* Ensure the headings are displayed as block elements */
+  margin-top: 20px; /* Optional: Add margin to separate from other content */
+  font-size: 2rem; /* Ensure the headings are large enough to be visible */
+  line-height: 1.2; /* Ensure good readability */
+}
+
+.contact-form-section h1, 
+.contact-form-section p {
+  color: var(--primary-color);
+  text-align: center;
+  visibility: visible;
+  display: block;
+  margin-top: 20px;
+  font-size: 2rem; /* Ensure the headings are large enough to be visible */
+  line-height: 1.2; /* Ensure good readability */
+}
+
+.contact-title {
+  display: block; /* Ensure the container is block-level */
+  width: 100%; /* Ensure it takes the full width */
+}
+
+.contact-title h1,
+.contact-title p {
+  display: block; /* Ensure they are block elements */
+  margin: 0; /* Reset margins if needed */
+  text-align: center; /* Center the text */
+}
+
+.contact-form-section {
+  padding-top: 200px; /* Adjust to prevent overlap with fixed nav */
+  text-align: center;
+  color: var(--primary-color);
+}
+
+.contact-title {
+  position: relative; /* Correct the positioning */
+  top: 0;
+  font-family: "Rubik", sans-serif;
+  color: #000000;
+  text-align: center; /* Ensure center alignment */
+}
+
+/* Adjust the plot width */
+.plot {
+  width: 80%; /* Set the width to 80% of the container */
+  max-width: 1000px; /* Optional: Set a max width to limit the plot size */
+  margin-bottom: 20px; /* Space between plots */
+  border: 2px solid var(--primary-color);
+  border-radius: 2px;
+}
+
+@media only screen and (max-width: 900px) {
+  .plot {
+    width: 90%; /* Adjust width for smaller screens */
+    max-width: 600px; /* Optional: Set a max width for smaller screens */
+  }
+}
+
+.plots-container {
+  display: flex;
+  flex-direction: column; /* Ensure plots are in a column layout */
+  align-items: center; /* Center the plots horizontally */
+  padding: 2rem;
+  flex-wrap: wrap; /* Add this property */
+
+}
+
+
+@media only screen and (max-width: 900px) {
+  .plot {
+    width: 90%; /* Adjust width for smaller screens */
+    max-width: 600px; /* Optional: Set a max width for smaller screens */
+    margin: 20px auto; /* Center the plot horizontally */
+  }
+}
+
+
+footer .components-outer-container .footer-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Adjusting container positions */
+footer .components-outer-container .footer-container .first,
+footer .components-outer-container .footer-container .second,
+footer .components-outer-container .footer-container .third {
+  flex: 1;
+  margin: 10px;
+}
+
+/* Ensure first container content is left-aligned */
+footer .components-outer-container .footer-container .first {
+  order: 1; /* Ensure it appears first */
+}
+
+/* Ensure third container content is right-aligned */
+footer .components-outer-container .footer-container .third {
+  order: 3; /* Ensure it appears last */
+}
+
+/* Additional styles for responsiveness */
+@media (max-width: 768px) {
+  footer .components-outer-container .footer-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+footer .components-outer-container .footer-container .third {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}

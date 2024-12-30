@@ -1,0 +1,170 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-top: 120px; /* Adjust this value to the height of your navbar */
+  margin: 0;
+}
+
+.container {
+  flex: 1;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 80%;
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+h1 {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.upload-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.upload-label {
+  display: block;
+  width: 100%;
+  text-align: center;
+  cursor: pointer;
+}
+
+.upload-box {
+  border: 2px dashed #000000;
+  border-radius: 10px;
+  padding: 20px;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #f9f9f9;
+  transition: background-color 0.3s, border-color 0.3s; /* Smooth transition for color changes */
+}
+
+.upload-box:hover {
+  background-color:rgba(255, 46, 99, 1); /* Change background color on hover */
+  border-color: #666; /* Change border color on hover */
+}
+
+.file-info {
+  display: none;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.remove-file {
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  color: #ff0000;
+}
+
+.upload-box.dragover {
+  border-color: #666;
+  background-color: #e6e6e6;
+}
+
+.result-container {
+  display: none;
+  margin-top: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  padding: 20px;
+}
+
+.result-container h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.result-details {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+footer {
+  color: #fff;
+  width: 100%;
+  padding: 10px 0;
+  text-align: center;
+  position: relative;
+  bottom: 0;
+}
+
+footer .components-outer-container .footer-container .third {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+footer .components-outer-container .footer-container .third .social-icons {
+  display: flex;
+  justify-content: center;
+  margin: 0px 0;
+}
+
+footer .components-outer-container .footer-container .third .social-icons a {
+  margin: 0 10px;
+  color: rgb(0, 0, 0);
+  font-size: 24px;
+}
+
+footer .components-outer-container .footer-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Adjusting container positions */
+footer .components-outer-container .footer-container .first,
+footer .components-outer-container .footer-container .second,
+footer .components-outer-container .footer-container .third {
+  flex: 1;
+  margin: 10px;
+}
+
+/* Ensure first container content is left-aligned */
+footer .components-outer-container .footer-container .first {
+  order: 1; /* Ensure it appears first */
+}
+
+/* Ensure third container content is right-aligned */
+footer .components-outer-container .footer-container .third {
+  order: 3; /* Ensure it appears last */
+}
+
+/* Additional styles for responsiveness */
+@media (max-width: 768px) {
+  footer .components-outer-container .footer-container {
+      flex-direction: column;
+      align-items: center;
+  }
+}
+
+footer .components-outer-container .footer-container .third {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
