@@ -1,5 +1,4 @@
 # Murburn-Concept
-# 🧪 Murzyme-Predictor  
 ## A minimalist rule-based + ML toolkit to decide “Is this protein a murzyme?" and much more...
 
 Repository root:  
