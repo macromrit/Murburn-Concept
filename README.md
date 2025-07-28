@@ -87,7 +87,7 @@ clf.fit(new_train_data, new_labels)
 ---
 ---
 
-# Murburn Explorer (Click-Here)[https://github.com/Murburn-Labs/Murburn-Snippets/tree/murburn-software-snippets]
+# [**Murburn Explorer**](https://github.com/Murburn-Labs/Murburn-Snippets/tree/murburn-software-snippets)
 
 Murburn Explorer is a web-based platform for visualizing and analyzing protein structures, particularly focusing on the classification of proteins as either Murzymes or Non-Murzymes. The platform allows researchers to explore PCA and t-SNE visualizations, search for specific proteins in the database, and classify new PDB files.
 
