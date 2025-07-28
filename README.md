@@ -227,10 +227,3 @@ This application has been optimized for mobile devices with:
 ## Contact
 
 For questions or support, please contact: murburn.concept@gmail.com
-
----
----
-
-## 6. License
-
-MIT © 2024 KMM Lab.
